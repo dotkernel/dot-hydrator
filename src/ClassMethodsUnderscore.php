@@ -7,6 +7,8 @@
  * Time: 1:07 AM
  */
 
+declare(strict_types=1);
+
 namespace Dot\Hydrator;
 
 use Zend\Hydrator\ClassMethods;

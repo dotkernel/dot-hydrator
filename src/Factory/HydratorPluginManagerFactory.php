@@ -7,6 +7,8 @@
  * Time: 1:02 AM
  */
 
+declare(strict_types=1);
+
 namespace Dot\Hydrator\Factory;
 
 use Interop\Container\ContainerInterface;
