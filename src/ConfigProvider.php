@@ -7,6 +7,8 @@
  * Time: 12:59 AM
  */
 
+declare(strict_types = 1);
+
 namespace Dot\Hydrator;
 
 use Dot\Hydrator\Factory\HydratorPluginManagerFactory;
@@ -19,7 +21,7 @@ use Zend\ServiceManager\Factory\InvokableFactory;
  */
 class ConfigProvider
 {
-    public function __invoke()
+    public function __invoke(): array
     {
         return [
             'dependencies' => $this->getDependenciesConfig(),
@@ -45,7 +47,7 @@ class ConfigProvider
         ];
     }
 
-    public function getDependenciesConfig()
+    public function getDependenciesConfig(): array
     {
         return [
             'factories' => [

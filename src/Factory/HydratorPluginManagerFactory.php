@@ -7,6 +7,8 @@
  * Time: 1:02 AM
  */
 
+declare(strict_types = 1);
+
 namespace Dot\Hydrator\Factory;
 
 use Interop\Container\ContainerInterface;
@@ -30,7 +32,8 @@ class HydratorPluginManagerFactory
         $config = $container->has('config') ? $container->get('config') : [];
         if (isset($config[$this->configKey])
             && isset($config[$this->configKey][$this->hydratorManagerConfigKey])
-            && is_array($config[$this->configKey][$this->hydratorManagerConfigKey])) {
+            && is_array($config[$this->configKey][$this->hydratorManagerConfigKey])
+        ) {
             $config = $config[$this->configKey][$this->hydratorManagerConfigKey];
         }
 
