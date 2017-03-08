@@ -1,6 +1,6 @@
 {
   "name": "dotkernel/dot-hydrator",
-  "description": "Adapts zend-hydrator to DotKernel applications",
+  "description": "DotKernel hydrator component extending and customizing zend-hydrator",
   "authors": [
     {
       "name": "n3vrax",
@@ -39,7 +39,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "0.6-dev"
+      "dev-master": "1.1-dev"
     }
   }
 }
