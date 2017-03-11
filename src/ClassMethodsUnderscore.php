@@ -1,10 +1,8 @@
 <?php
 /**
- * @copyright: DotKernel
- * @library: dot-hydrator
- * @author: n3vrax
- * Date: 1/25/2017
- * Time: 1:07 AM
+ * @see https://github.com/dotkernel/dot-hydrator/ for the canonical source repository
+ * @copyright Copyright (c) 2017 Apidemia (https://www.apidemia.com)
+ * @license https://github.com/dotkernel/dot-hydrator/blob/master/LICENSE.md MIT License
  */
 
 declare(strict_types = 1);
