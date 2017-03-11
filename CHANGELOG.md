@@ -1,4 +1,4 @@
-## 1.0.0 - 2017-03-08
+## 1.0.1 - 2017-03-11
 
 Updated php file headers doc blocks
 
