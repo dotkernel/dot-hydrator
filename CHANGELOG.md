@@ -1,7 +1,7 @@
 ## 1.1.1 - 2017-05-04
 
 ### Changed
-* updated factories to use PSR11 container
+* updated dependencies
 
 ### Added
 * Nothing
