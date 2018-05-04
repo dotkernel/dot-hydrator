@@ -3,8 +3,8 @@
   "description": "DotKernel hydrator component extending and customizing zend-hydrator",
   "authors": [
     {
-      "name": "n3vrax",
-      "email": "tibi@apidemia.com"
+      "name": "DotKernel Team",
+      "email": "team@dotkernel.com"
     }
   ],
   "type": "library",
@@ -21,7 +21,7 @@
   "require": {
     "php": "^7.1",
     "zendframework/zend-servicemanager": "^3.3.0",
-    "zendframework/zend-hydrator": "^2.2"
+    "zendframework/zend-hydrator": "^2.4"
   },
   "require-dev": {
     "phpunit/phpunit": "^4.7",
