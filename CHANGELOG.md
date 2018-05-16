@@ -1,4 +1,4 @@
-## 1.1.1 - 2017-05-04
+## 1.1.1 - 2018-05-04
 
 ### Changed
 * updated dependencies
