@@ -10,7 +10,7 @@ declare(strict_types = 1);
 namespace Dot\Hydrator\Factory;
 
 use Psr\Container\ContainerInterface;
-use Zend\Hydrator\HydratorPluginManager;
+use Laminas\Hydrator\HydratorPluginManager;
 
 /**
  * Class HydratorPluginManagerFactory
