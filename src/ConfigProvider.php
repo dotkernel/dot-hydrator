@@ -10,8 +10,8 @@ declare(strict_types = 1);
 namespace Dot\Hydrator;
 
 use Dot\Hydrator\Factory\HydratorPluginManagerFactory;
-use Zend\Hydrator\HydratorPluginManager;
-use Zend\ServiceManager\Factory\InvokableFactory;
+use Laminas\Hydrator\HydratorPluginManager;
+use Laminas\ServiceManager\Factory\InvokableFactory;
 
 /**
  * Class ConfigProvider

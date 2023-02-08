@@ -9,7 +9,7 @@ declare(strict_types = 1);
 
 namespace Dot\Hydrator;
 
-use Zend\Hydrator\ClassMethods;
+use Laminas\Hydrator\ClassMethods;
 
 /**
  * Class ClassMethodsCamelCase
