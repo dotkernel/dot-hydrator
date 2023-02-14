@@ -9,13 +9,13 @@ declare(strict_types = 1);
 
 namespace Dot\Hydrator;
 
-use Laminas\Hydrator\ClassMethods;
+use Laminas\Hydrator\ClassMethodsHydrator;
 
 /**
  * Class ClassMethodsCamelCase
  * @package Dot\Hydrator
  */
-class ClassMethodsCamelCase extends ClassMethods
+class ClassMethodsCamelCase extends ClassMethodsHydrator
 {
     public function __construct()
     {

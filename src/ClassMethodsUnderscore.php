@@ -9,13 +9,13 @@ declare(strict_types = 1);
 
 namespace Dot\Hydrator;
 
-use Laminas\Hydrator\ClassMethods;
+use Laminas\Hydrator\ClassMethodsHydrator;
 
 /**
  * Class ClassMethodsUnderscore
  * @package Dot\Hydrator
  */
-class ClassMethodsUnderscore extends ClassMethods
+class ClassMethodsUnderscore extends ClassMethodsHydrator
 {
     public function __construct()
     {
