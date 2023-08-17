@@ -8,6 +8,6 @@
 DotKernel hydrator component extending and customizing [laminas-hydrator](https://docs.laminas.dev/laminas-hydrator/)
 
 ## Note:
-**dot-hydrator** is in **maintenance** mode.
+> **dot-hydrator** is in **maintenance** mode.
 
-This package is considered feature-complete, and is now in **security-only** maintenance mode.
+> This package is considered feature-complete, and is now in **security-only** maintenance mode.
